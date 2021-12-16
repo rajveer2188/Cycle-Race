@@ -149,17 +149,17 @@ function draw() {
     //   reset;
     // }
 
-    if(key("UP_ARROW")) {
-      reset();
-    }
+    // if(key("UP_ARROW")) {
+    //   reset();
+    // }
 
     // if(keyDown()) {
     //   reset();
     // }
 
-    // if(keyDown("UP_ARROW")) {
-    //   reset();
-    // }
+    if(keyDown("up")) {
+      reset();
+    }
 }
 }
 
